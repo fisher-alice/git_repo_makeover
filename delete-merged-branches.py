@@ -27,5 +27,5 @@ for b in branches:
         bashCommand = ['git', 'push', '--delete', 'origin', b]
         process = subprocess.Popen(bashCommand, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         output, error = process.communicate()
-        print(count)
+print(count)
 
